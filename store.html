@@ -19,7 +19,7 @@
 
     <!-- Custom styles for this template -->
     <link href="css/business-casual.min.css" rel="stylesheet">
-
+  <!-- iconos -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 
@@ -105,7 +105,7 @@
                   <br>
                    Villa libertad
                 </em>
-              </p>
+              </p>   
               <p class="mb-0">
                 <small>
                   <em>Llamar al número</em>
@@ -124,28 +124,28 @@
         <div class="row">
           <div class="col-lg-9">
               <h3 class="Contact text-center">Contactanos</h3>
-               <form action="">
+               <form action="enviar2.php" id="contact-form" class="contacta" name="contact-form" method="POST" >
                    <div class="input-group mb-3">
                        <div class="input-group-prepend">
                            <i class="fas fa-user input-group-text"></i>
                        </div>
-                       <input type="text" class="form-control ml-2" placeholder="Name">
+                       <input type="text" class="form-control ml-2" placeholder="Name" name="nombre" required="required"  >
                    </div>
                    <div class="input-group mb-3">
                      <div class="input-group-prepend">
                          <i class="fas fa-envelope input-group-text"></i>
                      </div>
-                     <input type="text" class="form-control ml-2" placeholder="Name">
+                     <input type="email" class="form-control ml-2" placeholder="Email" name="email" required="required" >
                    </div>
                 
                    <div class="input-group mb-3">
                      <div class="input-group-prepend">
                          <i class="fas fa-envelope input-group-text "></i>
                      </div>
-                       <textarea class="form-control" cols="30" rows="10" placeholder="Write your Message"></textarea>
+                       <textarea name="mensaje" class="form-control" cols="30" rows="10" placeholder="Write your Message"></textarea>
                    </div>
                 
-                   <button class="btn btn-primary btn-lg btn-block ">Send Your Message</button>
+                   <button type="submit" class="btn btn-primary btn-lg btn-block ">Send Your Message</button>
                </form>
           </div>
           <div class="col-lg-3 align-self-center ">

@@ -91,29 +91,25 @@
     .intro .intro-img{
         width:60%;
         float:right;
-       
-    }
+         }
 
     .intro .intro-text{
             left:0;
             width:60%;
             margin-top:3rem;
             position:absolute;
-           
-        }
+          }
             
    .intro .intro-text .intro-button{
        width:100%;
        left:0;
        position:absolute;
        bottom:-2rem}
-
     }
        
 @media (min-width:1200px){
     .intro .intro-text{
         width:45%}
-
     }
  .cta{
      padding-top:5rem;
@@ -148,8 +144,7 @@
          position:relative;
          z-index:1
         }
-
-        
+             
     }
     @media (min-width:992px){
         .product-item .product-item-title{
@@ -168,8 +163,7 @@
             margin-top:-3rem;
             max-width:50vw
         }
-
-        
+ 
     }
     .list-hours{
         font-size:.9rem
@@ -189,9 +183,7 @@
             width:50%;
             font-size:1.1rem
         }
-
-        
-        
+ 
     }
     .address strong{
         font-size:1.2rem
@@ -225,9 +217,7 @@
         height: 300px;
 
     }
-
-   
-    
+       
     .social-bar a{
         display: flex;
         justify-content:center;
@@ -235,9 +225,7 @@
         font-size: 40px;
        
     }
-    
-    
-    
+   
 .social-bar  div{
       margin-top: 15px;
       width: 75%;
